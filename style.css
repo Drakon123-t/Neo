@@ -253,3 +253,18 @@ footer {
         font-size: 2rem;
     }
 }
+.logo-link {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
+.logo-link .highlight {
+    color: #00ff9d;
+}
