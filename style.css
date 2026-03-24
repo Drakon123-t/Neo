@@ -253,9 +253,10 @@ footer {
         font-size: 2rem;
     }
 }
+
 .logo-link {
     text-decoration: none;
-    color: #e0e0e0;
+    color: #e0e0e0;  
     font-size: 1.5rem;
     font-weight: bold;
     transition: opacity 0.3s;
@@ -266,5 +267,28 @@ footer {
 }
 
 .logo-link .highlight {
+    color: #00ff9d;  
+}
+
+
+.logo-link:visited {
+    color: #e0e0e0; 
+}
+
+.logo-link:active {
+    color: #e0e0e0;
+}
+
+
+a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e0e0e0;
+}
+
+a:hover {
     color: #00ff9d;
 }
