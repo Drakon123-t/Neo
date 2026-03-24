@@ -478,7 +478,7 @@ a:hover {
         font-size: 1.5rem;
     }
     
-    /* Для страницы контактов */
+   
     .contact-wrapper {
         flex-direction: column;
         padding: 1.5rem;
@@ -498,7 +498,7 @@ a:hover {
     }
 }
 
-/* Для очень маленьких экранов (до 480px) */
+
 @media (max-width: 480px) {
     .container {
         width: 95%;
